@@ -1,0 +1,227 @@
+
+
+.custom-form-control {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  padding:  6px;
+  background-color: #eee;
+}
+
+.custom-form-control select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("./assets/images/sorting.svg") no-repeat;
+  background-size: 24px;
+  background-position: right center;
+  padding-right: 32px; 
+}
+
+.scrolling-buttons-container {
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 10px;
+  text-align: center;
+}
+
+.scrolling-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
+  
+}
+
+.scrolling-buttons button:focus {
+  border: 2px solid red; 
+  outline: none; }
+
+
+.buttonColor{
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+  background-color: #eee;
+  border: #b9b3b3 1px solid;
+  color: black;
+}
+
+.buttonColor:hover {
+  opacity: 0.8;
+  background-color: #b9b3b3;
+  color: #002;
+}
+
+.buttonColor.active{
+  border: 1px solid red;
+  background-color: #b9b3b3;
+  color: #002;
+}
+
+
+/* Style for the custom icon */
+.custom-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+textarea:focus,
+select:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+  box-shadow: none;
+  border: none;
+  background-color: #eee;
+}
+.form-select:focus {
+  box-shadow: none;
+  border: none;
+  background-color: #eee;
+}
+
+input[type="date"],
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+[type="text"].form-control,
+[type="password"].form-control,
+[type="email"].form-control,
+[type="tel"].form-control {
+  border: none;
+  background-color: #eee;
+  
+}
+
+
+.custom-card {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+}
+
+.card-image {
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 100%;
+  
+  display: block;
+  position: relative;
+}
+
+
+.icon-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 27px;
+  background-color: #f5f6fa;
+  
+}
+
+.icon-width{
+  padding: 40px;
+  
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #000;
+  color:red;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.download-printer{
+  position: absolute;
+  bottom: 80px;
+  left: 30px;
+  padding: 5px;
+  
+}
+
+.print-icon{
+  background-color: #e3d8d8;
+  color: #3d3939;
+  margin-left: 10px;
+    width: 30px;
+  height: 30px;
+  padding: 5px;
+  position: relative;
+  border: #e3d8d8 solid 2px;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.custom-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer-icons {
+  display: flex;
+  margin-right: 10px;
+  gap: 10px;
+  /* background-color: #ede1e1; */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: relative;
+}
+.footer-icons .icon {
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-text {
+  text-align: left;
+  flex-grow: 1; 
+}
+.footer-text h5 {
+  margin: 0 0 5px; 
+  font-size: 0.9rem;
+}
+
+.footer-text p {
+  margin: 0; 
+   font-size: 1rem;
+
+}
